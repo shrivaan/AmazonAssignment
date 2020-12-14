@@ -27,7 +27,7 @@ public class Amazon extends ActionKeywords {
 	@BeforeClass
 	public void beforeClass() {
 //		Please change the app path 
-		File app = new File("C:\\Anuj\\Automation\\Amazon_shopping.apk");
+		File app = new File("Add your path");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("deviceName","Samsung Device");
 		capabilities.setCapability("platformVersion", "7.0.0");
